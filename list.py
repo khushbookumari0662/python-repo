@@ -20,6 +20,25 @@ print("After removing elements:", numbers)
 numbers[2] = 100
 print("After updating:", numbers)
 
+# extend() 
+numbers.extend([60, 40])
+print("after extend:", numbers)
+
+# sort()
+numbers.sort()
+print("after sort:", numbers)
+
+# reverse()
+numbers.reverse()
+print("After reverse:", numbers)
+
+# index()
+print("Index of 40:", numbers.index(40))
+
+# del 
+del numbers[2]
+print("After deleting index 2:", numbers)
+
 # length of list
 print("Length of list:", len(numbers))
 
