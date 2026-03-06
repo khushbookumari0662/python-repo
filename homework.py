@@ -69,7 +69,42 @@ for i in range(num):
     c = a + b
     a = b
     b = c
-  
+
+
+#define a function to receive variable no. of argument function should print even , if the elements is even otherwise odd
+def evenOdd(*numbers):
+     for a in numbers:
+         if a%2 == 0:
+             print("even" , end = " ")
+         else:
+             print("odd", end = " ")
+             
+evenOdd(68,68,35,68,80,24)
+
+
+#define a function even, odd, sum(*args)
+def sumEvenOdd(*num):
+      s=0
+      e=0
+      for a in num:
+          if a%2 == 0:
+              s+=a
+          
+          else:
+               e+=a
+      print(e)
+      print(s)
+    
+ sumEvenOdd(56,876,786,86,89,76)             
+              
+
+         
+
+
+
+
+
+
 
           
   
